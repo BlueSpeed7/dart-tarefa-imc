@@ -21,7 +21,7 @@ void main() {
     double imc = peso / (altura * altura);
     print(
         'Olá, seu nome é $nome, você tem $idade anos, sua altura é $altura metros e seu peso é $peso kg.\n'
-            'Considerando sua altura e seu peso atual o seu IMC é ${imc.toStringAsFixed(2)}.');
+        'Considerando sua altura e seu peso atual o seu IMC é ${imc.toStringAsFixed(2)}.');
   } else {
     print('Alguma informação não foi preenchida corretamente.');
   }
